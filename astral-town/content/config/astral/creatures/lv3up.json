@@ -1,0 +1,98 @@
+{
+	"aslv3up":
+	{
+		"name" :
+		{
+			"plural" : "Storm Elementals",
+			"singular" : "Storm Elemental"
+		},
+		"advMapAmount" :
+		{
+			"max" : 15,
+			"min" : 8
+		},
+		"faction" : "astral",
+		"aiValue" : 328,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+                "cost" : 
+		{
+			"gold" : 250
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 10,
+		"fightValue" : 391,
+		"graphics" :
+		{
+			"animation" : "astral/battle/lv3up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "astral/map/lv3upMap.def",
+			"iconSmall" : "astral/iconsSmall/lv3upm.bmp",
+			"iconLarge" : "astral/iconsBig/lv3ups.bmp",
+			"timeBetweenFidgets" : 1,
+			
+		},
+		"growth" : 6,
+		"hitPoints" : 30,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"                
+		},
+		"speed" : 8,
+		"abilities":
+		{
+			 "nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectAir",
+				"val" : 2
+			},
+			"meteorShowerImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.meteorShower"
+			},
+			"lightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 100
+			},
+			"chainLightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 100
+			}
+		}
+	}
+}
+
+

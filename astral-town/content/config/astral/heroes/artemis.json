@@ -1,0 +1,65 @@
+{
+	"artemis" :
+	{
+		"class" : "stPadishah",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Artemis",
+			"biography" : "nothing yet",
+			"specialty" :
+			{
+				"description" : "{Deserted Shooters or Deserted Hunters}\r\n\r\nIncreases Speed of any Deserted Shooters or Deserted Hunters by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Deserted Shooters",
+				"name" : "Deserted Shooters"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "astral/heroes/artemis/spec-small.png",
+			"specialtyLarge" : "astral/heroes/artemis/spec-large.png",
+			"large" : "astral/heroes/artemis/portrait-large.png",
+			"small" : "astral/heroes/artemis/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv1",
+				"max" : 10,
+				"min" : 5
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "aslv1"
+		}		
+	}
+}
+

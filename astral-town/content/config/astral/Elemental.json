@@ -1,0 +1,22 @@
+{
+	// subtype: unique special dwellings - altar of the elements astral
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"asAltarlements" : {
+			"name" : "Altar of the Elements",
+				"creatures" : [ // 4 separate "levels" to give them separate growth
+					[ "airElemental" ],
+					[ "waterElemental" ],
+					[ "fireElemental" ],
+					[ "earthElemental" ]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "astral/adventure-map/Elemental Temple.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+				}
+			}
+		}
+	},
+}
+}

@@ -1,0 +1,67 @@
+{
+	"drugar" :
+	{
+		"class" : "stIlluminate",
+		"female" : false,
+
+		
+		"texts" :
+		{
+			"name" : "Drugar",
+			"biography" : "Drugar result of errors royal alchemists.",
+			"specialty" :
+			{
+				"tooltip" : "+350 Gold per day",
+				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "astral/heroes/drugar/spec-small.png",
+			"specialtyLarge" : "astral/heroes/drugar/spec-large.png",
+			"large" : "astral/heroes/drugar/portrait-large.png",
+			"small" : "astral/heroes/drugar/portrait-small.png"
+		},
+
+
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv3",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+
+

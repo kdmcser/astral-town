@@ -1,0 +1,78 @@
+{
+	"naegarhan" :
+	{
+		"class" : "stPadishah",
+		"female" : false,
+
+
+		"texts" :
+		{
+			"name" : "Naegarhana",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Receives a 5% per level bonus to Sorcery skill.",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "astral/heroes/naegarhan/spec-small.png",
+			"specialtyLarge" : "astral/heroes/naegarhan/spec-large.png",
+			"large" : "astral/heroes/naegarhan/portrait-large.png",
+			"small" : "astral/heroes/naegarhan/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv3",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

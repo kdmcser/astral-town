@@ -1,0 +1,123 @@
+{
+	"astral" : {
+		"alignment" : "neutral",
+		"creatureBackground" : { "120px" : "astral/creature-bg-120px", "130px" : "astral/creature-bg-130px" },
+		"name" : "Astral",
+		"nativeTerrain": "sand",
+		"town" :
+		{
+			"musicTheme" : "music/astral/theme",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "astral/town-screen/background",
+			"guildWindow": "astral/town-screen/mage-guild",
+			"hallBackground": "TPTHBKFR",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
+				[ [ "special2" ], [ "special1" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				[ "aslv1", "aslv1up" ],
+				[ "aslv2", "aslv2up" ],
+				[ "aslv3", "aslv3up" ],
+				[ "aslv4", "aslv4up" ],
+				[ "aslv5", "aslv5up"],
+				[ "aslv6", "aslv6up" ],
+				[ "aslv7", "aslv7up" ]
+			],
+			"moatDamage" : 90,
+			"horde" : [ 0, -1 ],
+			"mageGuild" : 5,
+			"primaryResource" : "mercury",
+			"warMachine" : "ballista",
+			"buildingsIcons" : "astral/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "astral/icons/hall-small.bmp",
+						"large" : "astral/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "astral/icons/hall-builded-small.bmp",
+						"large" : "astral/icons/hall-builded-big.bmp"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "astral/icons/fort-small.bmp",
+						"large" : "astral/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "astral/icons/fort-builded-small.bmp",
+						"large" : "astral/icons/fort-builded-big.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "astral/adventure-map/town-capitol.def" },
+					"castle" : { "animation" : "astral/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "astral/adventure-map/town-citadel.def" },
+					"fort" : { "animation" : "astral/adventure-map/town-fort.def" },
+					"village" : { "animation" : "astral/adventure-map/town-village.def" }
+				}
+			},
+			"names" :
+			[
+				
+				"Xanadu",
+				"Hangval",
+				"Jalina",
+				"Firios",
+				"Windhaven",
+				"Bathiere",
+				"Spring Falls",
+				"Gem Moor",
+				"Willow",
+				"New Forest",
+				"New Elfwind",
+				"Wenlan",
+				"Vintyl",
+				"Sylina",
+				"Hallin",
+				"Rael"
+			],
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 4,
+				"druid"        : 4,
+				"alchemist"    : 4,
+				"wizard"       : 4,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 4,
+				"necromancer"  : 4,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 4,
+				"battlemage"   : 4,
+				"beastmaster"  : 4,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 4,
+				"stIlluminate"    : 5,
+				"stPadishah"    : 5
+			}
+		}
+	}
+}

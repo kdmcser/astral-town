@@ -1,0 +1,54 @@
+{
+	"astral" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation2": { "animation" : "astral/town-screen/buildings/TBELEXT5.def", "x" : 620, "y" : 135,  "z" : -1, },
+				"extraAnimation":  { "animation" : "astral/town-screen/buildings/TBELEXT1.def", "x" : 23,  "y" : 210 }, 
+				"mageGuild1":      { "animation" : "astral/town-screen/buildings/TBELMAGE.def", "x" : 680, "y" : 75,  "z" : 4,     "border" : "astral/town-screen/buildings-border/TOELMAGE.bmp", "area" : "astral/town-screen/buildings-area/TZELMAGE.bmp" },
+				"mageGuild2":      { "animation" : "astral/town-screen/buildings/TBELMAG2.def", "x" : 680, "y" : 75,  "z" : 4,     "border" : "astral/town-screen/buildings-border/TOELMAG2.bmp", "area" : "astral/town-screen/buildings-area/TZELMAG2.bmp" },
+				"mageGuild3":      { "animation" : "astral/town-screen/buildings/TBELMAG3.def", "x" : 680, "y" : 75,  "z" : 4,     "border" : "astral/town-screen/buildings-border/TOELMAG3.bmp", "area" : "astral/town-screen/buildings-area/TZELMAG3.bmp" },
+				"mageGuild4":      { "animation" : "astral/town-screen/buildings/TBELMAG4.def", "x" : 680, "y" : 75,  "z" : 4,     "border" : "astral/town-screen/buildings-border/TOELMAG4.bmp", "area" : "astral/town-screen/buildings-area/TZELMAG4.bmp" },
+				"mageGuild5":      { "animation" : "astral/town-screen/buildings/TBELMAG5.def", "x" : 680, "y" : 75,  "z" : 4,     "border" : "astral/town-screen/buildings-border/TOELMAG5.bmp", "area" : "astral/town-screen/buildings-area/TZELMAG5.bmp" },
+				"tavern" :         { "animation" : "astral/town-screen/buildings/TBELtvrn.def", "x" : 553, "y" : 203, "z" : 1,     "border" : "astral/town-screen/buildings-border/TOELtvrn.bmp", "area" : "astral/town-screen/buildings-area/TZELtvrn.bmp" },
+				"shipyard" :       { "animation" : "astral/town-screen/buildings/TBELDOCK.def", "x" : 359, "y" : 115, "z" : 2,     "border" : "astral/town-screen/buildings-border/TOELdock.bmp", "area" : "astral/town-screen/buildings-area/TZELdock.bmp" },
+				"fort" :           { "animation" : "astral/town-screen/buildings/TBELcstl.def", "x" : 320, "y" : 101, "z" : -1,    "border" : "astral/town-screen/buildings-border/TOELcstl.bmp", "area" : "astral/town-screen/buildings-area/TZELcstl.bmp" },
+				"citadel" :        { "animation" : "astral/town-screen/buildings/TBELcas2.def", "x" : 320, "y" : 101, "z" : -2,    "border" : "astral/town-screen/buildings-border/TOELcas2.bmp", "area" : "astral/town-screen/buildings-area/TZELcas2.bmp" },
+				"castle" :         { "animation" : "astral/town-screen/buildings/TBELcas3.def", "x" : 320, "y" : 101, "z" : -2,    "border" : "astral/town-screen/buildings-border/TOELcas3.bmp", "area" : "astral/town-screen/buildings-area/TZELcas3.bmp" },
+				"villageHall" :    { "animation" : "astral/town-screen/buildings/TBELhall.def", "x" : -1,  "y" : 164, "z" : 5,     "border" : "astral/town-screen/buildings-border/TOELhall.bmp", "area" : "astral/town-screen/buildings-area/TZELhall.bmp" },
+				"townHall" :       { "animation" : "astral/town-screen/buildings/TBELhal2.def", "x" : 0,   "y" : 165, "z" : 5,     "border" : "astral/town-screen/buildings-border/TOELhal2.bmp", "area" : "astral/town-screen/buildings-area/TZELhal2.bmp" },
+				"cityHall" :       { "animation" : "astral/town-screen/buildings/TBELhal3.def", "x" : 0,   "y" : 165, "z" : 5,     "border" : "astral/town-screen/buildings-border/TOELhal3.bmp", "area" : "astral/town-screen/buildings-area/TZELhal3.bmp" },
+				"capitol" :        { "animation" : "astral/town-screen/buildings/TBELhal4.def", "x" : 0,   "y" : 164, "z" : 5,     "border" : "astral/town-screen/buildings-border/TOELhal4.bmp", "area" : "astral/town-screen/buildings-area/TZELhal4.bmp" },
+				"marketplace" :    { "animation" : "astral/town-screen/buildings/TBELmark.def", "x" : 347, "y" : 216, "z" : 4,     "border" : "astral/town-screen/buildings-border/TOELmark.bmp", "area" : "astral/town-screen/buildings-area/TZELmark.bmp" },
+				"resourceSilo" :   { "animation" : "astral/town-screen/buildings/TBELsilo.def", "x" : 380, "y" : 171, "z" : 2,     "border" : "astral/town-screen/buildings-border/TOELsilo.bmp", "area" : "astral/town-screen/buildings-area/TZELsilo.bmp" },
+				"blacksmith" :     { "animation" : "astral/town-screen/buildings/TBELblak.def", "x" : 0, "y" : 67, "z" : 1,        "border" : "astral/town-screen/buildings-border/TOELblak.bmp", "area" : "astral/town-screen/buildings-area/TZELblak.bmp" },
+				"special1" :       { "animation" : "astral/town-screen/buildings/TBELspec.def", "x" : 284, "y" : 246, "z" : 4,     "border" : "astral/town-screen/buildings-border/TOELspec.bmp", "area" : "astral/town-screen/buildings-area/TZELspec.bmp" },
+				"horde1" :         { "animation" : "astral/town-screen/buildings/TBELHRD1.def", "x" : 689, "y" : 250,              "border" : "astral/town-screen/buildings-border/TOELhrd1.bmp", "area" : "astral/town-screen/buildings-area/TZELhrd1.bmp", "hidden" : true },
+				"horde1Upgr" :     { "animation" : "astral/town-screen/buildings/TBELHRD2.def", "x" : 689, "y" : 250, "z" : 12,    "border" : "astral/town-screen/buildings-border/TOELhrd2.bmp", "area" : "astral/town-screen/buildings-area/TZELhrd2.bmp", "hidden" : true, "builds" : "horde1", },
+				"ship" :           { "animation" : "astral/town-screen/buildings/TBELBOAT.def", "x" : 359, "y" : 115, "z" : 2,     "border" : "astral/town-screen/buildings-border/TOELboat.bmp", "area" : "astral/town-screen/buildings-area/TZELboat.bmp", "hidden" : true },
+				"special2" :       { "animation" : "astral/town-screen/buildings/TBELEXT6.def", "x" : 122, "y" : 135, "z" : 1,     "border" : "astral/town-screen/buildings-border/TOELext6.bmp", "area" : "astral/town-screen/buildings-area/TZELext6.bmp" },
+				"grail" :          { "animation" : "astral/town-screen/buildings/TBELholy.def", "x" : 265, "y" : 2,                "border" : "astral/town-screen/buildings-border/TOELholy.bmp", "area" : "astral/town-screen/buildings-area/TZELholy.bmp" },
+				"extraTownHall":   { "animation" : "astral/town-screen/buildings/TBELEXT2.def", "x" : 330, "y" : 175 },
+				"extraCityHall":   { "animation" : "astral/town-screen/buildings/TBELEXT3.def", "x" : 455, "y" : 210, "z" : 1 },
+				"extraCapitol":    { "animation" : "astral/town-screen/buildings/TBELEXT4.def", "x" : 0,   "y" : 252, "z" : 6 },
+				"dwellingLvl1":    { "animation" : "astral/town-screen/buildings/TBELDW_0.def", "x" : 689, "y" : 250,              "border" : "astral/town-screen/buildings-border/TOELDW_0.bmp", "area" : "astral/town-screen/buildings-area/TZELDW_0.bmp" },
+				"dwellingLvl3":    { "animation" : "astral/town-screen/buildings/TBELDW_1.def", "x" : 620, "y" : 50,               "border" : "astral/town-screen/buildings-border/TOELDW_1.bmp", "area" : "astral/town-screen/buildings-area/TZELDW_1.bmp" },
+				"dwellingLvl2":    { "animation" : "astral/town-screen/buildings/TBELDW_2.def", "x" : 460, "y" : 300, "z" : 1,     "border" : "astral/town-screen/buildings-border/TOELDW_2.bmp", "area" : "astral/town-screen/buildings-area/TZELDW_2.bmp" },
+				"dwellingLvl4":    { "animation" : "astral/town-screen/buildings/TBELDW_3.def", "x" : 0, "y" : 160, "z" : -1,      "border" : "astral/town-screen/buildings-border/TOELDW_3.bmp", "area" : "astral/town-screen/buildings-area/TZELDW_3.bmp" },
+				"dwellingLvl5":    { "animation" : "astral/town-screen/buildings/TBELDW_4.def", "x" : 240, "y" : 128, "z" : -1,    "border" : "astral/town-screen/buildings-border/TOELDW_4.bmp", "area" : "astral/town-screen/buildings-area/TZELDW_4.bmp" },
+				"dwellingLvl6":    { "animation" : "astral/town-screen/buildings/TBELDW_5.def", "x" : 344, "y" : 283, "z" : 5,     "border" : "astral/town-screen/buildings-border/TOELDW_5.bmp", "area" : "astral/town-screen/buildings-area/TZELDW_5.bmp" },
+				"dwellingLvl7":    { "animation" : "astral/town-screen/buildings/TBELDW_6.def", "x" : 43,  "y" : 16,  "z" : -2,    "border" : "astral/town-screen/buildings-border/TOELDW_6.bmp", "area" : "astral/town-screen/buildings-area/TZELDW_6.bmp" },
+				"dwellingUpLvl1":  { "animation" : "astral/town-screen/buildings/TBELUP_0.def", "x" : 689, "y" : 250,              "border" : "astral/town-screen/buildings-border/TOELUP_0.bmp", "area" : "astral/town-screen/buildings-area/TZELUP_0.bmp" },
+				"dwellingUpLvl3":  { "animation" : "astral/town-screen/buildings/TBELUP_1.def", "x" : 620, "y" : 50,               "border" : "astral/town-screen/buildings-border/TOELUP_1.bmp", "area" : "astral/town-screen/buildings-area/TZELUP_1.bmp" },
+				"dwellingUpLvl2":  { "animation" : "astral/town-screen/buildings/TBELUP_2.def", "x" : 460, "y" : 300, "z" : 1,     "border" : "astral/town-screen/buildings-border/TOELUP_2.bmp", "area" : "astral/town-screen/buildings-area/TZELUP_2.bmp" },
+				"dwellingUpLvl4":  { "animation" : "astral/town-screen/buildings/TBELUP_3.def", "x" : 0, "y" : 160, "z" : -1,      "border" : "astral/town-screen/buildings-border/TOELUP_3.bmp", "area" : "astral/town-screen/buildings-area/TZELUP_3.bmp" },
+				"dwellingUpLvl5":  { "animation" : "astral/town-screen/buildings/TBELUP_4.def", "x" : 240, "y" : 128, "z" : -1,    "border" : "astral/town-screen/buildings-border/TOELUP_4.bmp", "area" : "astral/town-screen/buildings-area/TZELUP_4.bmp" },
+				"dwellingUpLvl6":  { "animation" : "astral/town-screen/buildings/TBELUP_5.def", "x" : 344, "y" : 283, "z" : 5,     "border" : "astral/town-screen/buildings-border/TOELUP_5.bmp", "area" : "astral/town-screen/buildings-area/TZELUP_5.bmp" },
+				"dwellingUpLvl7":  { "animation" : "astral/town-screen/buildings/TBELUP_6.def", "x" : 105,  "y" : 0,   "z" : -2,   "border" : "astral/town-screen/buildings-border/TOELUP_6.bmp", "area" : "astral/town-screen/buildings-area/TZELUP_6.bmp" }
+			}
+		}
+	}
+}
+

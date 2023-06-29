@@ -1,0 +1,68 @@
+{
+	"lavinius" :
+	{
+		"class" : "stIlluminate",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Lavina",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sulfur + 1}\r\n\r\nIncreases kingdom's income by 1 Sulfur per day",
+				"tooltip" : "+1 Sulfur each day",
+				"name" : "+1 Sulfur"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "astral/heroes/lavinius/spec-small.png",
+			"specialtyLarge" : "astral/heroes/lavinius/spec-large.png",
+			"large" : "astral/heroes/lavinius/portrait-large.png",
+			"small" : "astral/heroes/lavinius/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv3",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"sulfur" : {
+					"subtype" : "resource.sulfur",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"nadine" : 
+	{
+		"class" : "stPadishah",
+		"female" : true,
+                 "texts" :
+		{
+			"name" : "Nadine",
+			"biography" : "nothing yet",
+			"specialty" :
+			{
+				"description" : "{Earth Elementals and Magma Elementals}\r\n\r\nIncreases Speed of any Earth Elementals or Magma Elementals by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Earth Elementals",
+				"name" : "Earth Elementals"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "astral/heroes/nadine/spec-small.png",
+			"specialtyLarge" : "astral/heroes/nadine/spec-large.png",
+			"large" : "astral/heroes/nadine/portrait-large.png",
+			"small" : "astral/heroes/nadine/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv3",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "aslv5"
+		}		
+	}
+}
+

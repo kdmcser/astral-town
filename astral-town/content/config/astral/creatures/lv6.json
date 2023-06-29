@@ -1,0 +1,96 @@
+{
+	"aslv6":
+	{
+		"name" :
+		{
+			"plural" : "Dao",
+			"singular" : "Dao"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 4
+		},
+		"faction" : "astral",
+		"aiValue" : 1114,
+		"attack" : 15,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 900
+		},
+		"damage" :
+		{
+			"max" : 24,
+			"min" : 16
+		},
+		"defense" : 12,
+		"fightValue" : 1232,
+		"graphics" :
+		{
+			"animation" : "astral/battle/lv6",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "astral/map/lv6Map.def",
+			"iconSmall" : "astral/iconsSmall/lv6m.bmp",
+			"iconLarge" : "astral/iconsBig/lv6s.bmp",
+			"timeBetweenFidgets" : 1,
+			
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+              	"level" : 6,
+		"upgrades":
+		[
+			"aslv6up"
+		],
+		"sound" :
+		{
+			"attack": "EFRTATTK.wav",
+			"defend": "EFRTDFND.wav",
+			"killed": "EFRTKILL.wav",
+			"move": "EFRTMOVE.wav",
+			"wince": "EFRTWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"immuneToMind" :
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"immuneToEarth" :
+			{
+				"type" : "EARTH_IMMUNITY",
+				"subtype" : 2 //immune to damage spells only
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellpower" :
+                        {
+                           "type" : "CREATURE_SPELL_POWER",
+                           "val" : 100
+			},
+			"castsQuicksand" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.quicksand",
+				"val" : 1,
+				"addInfo" : 1
+			},
+			"castsSlow" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.slow",
+				"val" : 1,
+				"addInfo" : 1
+			}
+		}
+	}
+}

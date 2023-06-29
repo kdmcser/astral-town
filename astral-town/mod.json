@@ -1,0 +1,77 @@
+{
+	"name" : "Astral",
+	"description" : "Astral town",
+	"author" : "ROFL team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "0.5",
+	"modType" : "Town",
+	"changelog" :
+    {
+        "0.5"   : [ "Update to vcmi-1.2 format" ],
+		"0.4"   : [ "Initial release" ]
+    },
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"factions" :
+	[
+		"config/astral/town/buildings.json",
+		"config/astral/town/faction.json",
+		"config/astral/town/siege.json",
+		"config/astral/town/spells.json",
+		"config/astral/town/structures.json",
+		"config/astral/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/astral/creatures/lv1.json",
+		"config/astral/creatures/lv1up.json",
+        "config/astral/creatures/lv2.json",
+		"config/astral/creatures/lv2up.json",
+		"config/astral/creatures/lv3.json",
+		"config/astral/creatures/lv3up.json",
+        "config/astral/creatures/lv4.json",
+		"config/astral/creatures/lv4up.json",
+		"config/astral/creatures/lv5.json",
+		"config/astral/creatures/lv5up.json",
+		"config/astral/creatures/lv6.json",
+		"config/astral/creatures/lv6up.json",
+		"config/astral/creatures/lv7.json",
+		"config/astral/creatures/lv7up.json",
+        "config/astral/creatures/Enchanter.json",
+		
+	],
+	"heroClasses" :
+	[
+		"config/astral/classes/Illuminate.json",
+		"config/astral/classes/Padishah.json"
+
+	],
+
+	"heroes" :
+	[
+		"config/astral/heroes/adonus.json",
+		"config/astral/heroes/artemis.json",
+		"config/astral/heroes/corinthya.json",
+		"config/astral/heroes/drugar.json",
+		"config/astral/heroes/gavinus.json",
+		"config/astral/heroes/jaeron.json",
+		"config/astral/heroes/klaus.json",
+		"config/astral/heroes/laurus.json",
+		"config/astral/heroes/lavinius.json",
+		"config/astral/heroes/maesie.json",
+		"config/astral/heroes/nadine.json",
+		"config/astral/heroes/naegarhan.json",
+		"config/astral/heroes/rosalynn.json",
+		"config/astral/heroes/samuel.json",
+		"config/astral/heroes/shireen.json",
+		"config/astral/heroes/yurian.json",
+	],
+	"objects" : 
+	[           
+	    "config/astral/dwellings",
+	    "config/astral/Elemental" 
+    ],
+}

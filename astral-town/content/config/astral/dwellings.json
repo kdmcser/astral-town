@@ -1,0 +1,79 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"asHovel" : {
+				"name" : "Hovel",
+				"creatures" : [[ "aslv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "astral/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"asAltarWater" : {
+				"name" : "Altar of Water",
+				"creatures" : [[ "aslv2up" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "astral/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"asAltarAir" : {
+				"name" : "Altar of Air",
+				"creatures" : [[ "aslv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "astral/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"asAltarFire" : {
+				"name" : "Altar of Fire",
+				"creatures" : [[ "aslv4" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "astral/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "BAV" ]
+					}
+				}
+			},
+			"asAltarWish" : {
+				"name" : "Altar of Wish",
+				"creatures" : [[ "aslv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "astral/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"asAltarEarth" : {
+				"name" : "Altar of Earth",
+				"creatures" : [[ "aslv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "astral/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"asBonfire" : {
+				"name" : "Bonfire",
+				"creatures" : [[ "aslv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "astral/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

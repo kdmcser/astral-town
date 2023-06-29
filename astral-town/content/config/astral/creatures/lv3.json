@@ -1,0 +1,86 @@
+{
+	"aslv3":
+	{
+		"name" :
+		{
+			"plural" : "Air Elementals",
+			"singular" : "Air Elemental"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "astral",
+		"aiValue" : 302,
+		"attack" : 7,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 5
+		},
+		"defense" : 10,
+		"fightValue" : 380,
+		"graphics" :
+		{
+			"animation" : "astral/battle/lv3.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "astral/map/lv3Map.def",
+			"iconSmall" : "astral/iconsSmall/lv3m.bmp",
+			"iconLarge" : "astral/iconsBig/lv3s.bmp",
+			"timeBetweenFidgets" : 1,
+			
+		},
+		"growth" : 6,
+		"hitPoints" : 30,
+		"level" : 3,
+		"upgrades":
+		[
+			"aslv3up"
+		],
+		"sound" :
+		{
+			"attack": "SGLMATTK.wav",
+			"defend": "SGLMDFND.wav",
+			"killed": "SGLMKILL.wav",
+			"move": "SGLMMOVE.wav",
+			"wince": "SGLMWNCE.wav"                 
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+                     "nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"meteorShowerImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.meteorShower"
+			},
+			"lightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 100
+			},
+			"chainLightingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 100
+			}	
+		}
+	}
+}
+
+

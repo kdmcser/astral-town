@@ -1,0 +1,73 @@
+{
+	"maesie" : 
+	{
+		"class" : "stIlluminate",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Maesie",
+			"biography" : "", 
+			"specialty" :
+			{
+				"description" : "{Berserk}\r\n\r\nCreatures under Berserk do more damage, depending on relation between Perha's level and creature's level.",
+				"tooltip" : "Spell Bonus: Berserk",
+				"name" : "Berserk"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "astral/heroes/maesie/spec-small.png",
+			"specialtyLarge" : "astral/heroes/maesie/spec-large.png",
+			"large" : "astral/heroes/maesie/portrait-large.png",
+			"small" : "astral/heroes/maesie/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"berserk"
+		],
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv4",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"berserk" : {
+					"subtype" : "spell.berserk",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}		
+	}
+}
+

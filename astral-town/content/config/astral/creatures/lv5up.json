@@ -1,0 +1,107 @@
+{
+	"aslv5up":
+	{
+		"name" :
+		{
+			"plural" : "Magma Elementals",
+			"singular" : "Magma Elemental"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 6
+		},
+		"faction" : "astral",
+		"aiValue" : 834,
+		"attack" : 12,
+		"hasDoubleWeek" : true,
+                 "cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			"max" : 16,
+			"min" : 13
+		},
+		"defense" : 12,
+		"fightValue" : 854,
+		"graphics" :
+		{
+			"animation" : "astral/battle/lv5up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "astral/map/lv6upMap.def",
+			"iconSmall" : "astral/iconsSmall/lv5upm.bmp",
+			"iconLarge" : "astral/iconsBig/lv5ups.bmp",
+			"timeBetweenFidgets" : 1,
+			
+		},
+
+		"growth" : 3,
+		"hitPoints" : 40,
+                "level" : 5,
+		"sound" :
+		{
+			"attack": "MAGMATTK.wav",
+			"defend": "MAGMDFND.wav",
+			"killed": "MAGMKILL.wav",
+			"move": "MAGMMOVE.wav",
+			"wince": "MAGMWNCE.wav"
+		},
+		"speed" : 11,
+		"abilities":
+		{
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectEarth",
+				"val" : 2
+			},
+			"meteorShowerVulnerability" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.meteorShower",
+				"val" : 100
+			},
+			"lightingImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.lightningBolt"
+			},
+			"chainLightingImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.chainLightning"
+			},			
+			"armageddonImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.armageddon"
+			}
+		}
+	}
+}
+
+
+
+
+
+

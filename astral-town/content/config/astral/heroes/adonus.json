@@ -1,0 +1,64 @@
+{
+	"adonus" : 
+	{
+		"class" : "stPadishah",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Adonus",
+			"biography" : "nothing yet",
+			"specialty" :
+			{
+				"description" : "{Water Elementals and Desert Genies}\r\n\r\nIncreases Speed of any Water Elementals or Storm Elementals by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Water Elementals",
+				"name" : "Water Elementals"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "astral/heroes/adonus/spec-small.png",
+			"specialtyLarge" : "astral/heroes/adonus/spec-large.png",
+			"large" : "astral/heroes/adonus/portrait-large.png",
+			"small" : "astral/heroes/adonus/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"waterWalk"
+		],
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv3",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "aslv2"
+		}		
+	}
+}
+

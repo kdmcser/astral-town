@@ -1,0 +1,68 @@
+{
+	"shireen" : 
+	{
+		"class" : "stPadishah",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Shireen",
+			"biography" : "nothing yet",
+			"specialty" : 
+			{
+				"description" : "{Haste}\r\n\r\nHero can cast the Haste spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "astral/heroes/shireen/spec-small.png",
+			"specialtyLarge" : "astral/heroes/shireen/spec-large.png",
+			"large" : "astral/heroes/shireen/portrait-large.png",
+			"small" : "astral/heroes/shireen/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv3",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"spellbook" :
+		[
+			"haste"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"klaus" : 
+	{
+		"class" : "stPadishah",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Klau",
+			"biography" : "nothing yet",
+			"specialty" : 
+			{
+				"description" : "{Shield}\r\n\r\nHero can cast the Shield spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Shield",
+				"name" : "Shield"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "astral/heroes/klaus/spec-small.png",
+			"specialtyLarge" : "astral/heroes/klaus/spec-large.png",
+			"large" : "astral/heroes/klaus/portrait-large.png",
+			"small" : "astral/heroes/klaus/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"shield"		
+        ],
+
+		"army" :
+		[
+			{
+				"creature" : "aslv1",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "aslv2",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "aslv3",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"shield" : {
+					"addInfo" : 0,
+					"subtype" : "spell.shield",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
