@@ -1,6 +1,7 @@
 {
 	"astral" : {
 		"alignment" : "neutral",
+		"boat" : "boatFortress",
 		"creatureBackground" : { "120px" : "astral/creature-bg-120px", "130px" : "astral/creature-bg-130px" },
 		"name" : "Astral",
 		"nativeTerrain": "sand",
@@ -31,7 +32,7 @@
 				[ "aslv6", "aslv6up" ],
 				[ "aslv7", "aslv7up" ]
 			],
-			"moatDamage" : 90,
+			"moatAbility" : "fortressMoat",
 			"horde" : [ 0, -1 ],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",

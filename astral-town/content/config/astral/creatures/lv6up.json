@@ -59,8 +59,9 @@
 			},
 			"immuneToEarth" :
 			{
-				"type" : "EARTH_IMMUNITY",
-				"subtype" : 2 //immune to damage spells only
+				"subtype" : 3,
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
 			},
 		      "immuneToMind" : 
 			{

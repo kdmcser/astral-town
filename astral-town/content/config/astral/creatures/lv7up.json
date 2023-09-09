@@ -3,7 +3,7 @@
 	{
 		"name" :
 		{
-			"plural" : "Heaven Phoenixs",
+			"plural" : "Heaven Phoenixes",
 			"singular" : "Heaven Phoenix"
 		},
 		"advMapAmount" :
@@ -72,8 +72,9 @@
 			},
 			"ImmunityToFire" :
 			{
-				"type" : "FIRE_IMMUNITY",
-				"subtype" : 2
+				"subtype" : 1,
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
 			},
 		    "KING1":
 			{
