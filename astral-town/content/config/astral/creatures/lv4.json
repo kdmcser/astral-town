@@ -79,7 +79,7 @@
 			},
 			"immuneToFire" : 
 			{
-				"subtype" : 1,
+				"subtype" : "fire",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 			},
 			"frostRingVulnerablity" :

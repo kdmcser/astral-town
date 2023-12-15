@@ -64,7 +64,7 @@
 			},
 			"immuneToEarth" :
 			{
-				"subtype" : 3,
+				"subtype" : "earth",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},

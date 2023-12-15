@@ -64,7 +64,7 @@
 			},
 			"ImmunityToFire" :
 			{
-				"subtype" : 1,
+				"subtype" : "fire",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},
