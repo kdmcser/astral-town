@@ -24,7 +24,6 @@
 		"config/astral/town/spells.json",
 		"config/astral/town/structures.json",
 		"config/astral/town/puzzle.json"
-
 	],
 	"creatures" :
 	[
@@ -42,8 +41,7 @@
 		"config/astral/creatures/lv6up.json",
 		"config/astral/creatures/lv7.json",
 		"config/astral/creatures/lv7up.json",
-        "config/astral/creatures/Enchanter.json",
-		
+        "config/astral/creatures/Enchanter.json"
 	],
 	"heroClasses" :
 	[
@@ -69,11 +67,11 @@
 		"config/astral/heroes/rosalynn.json",
 		"config/astral/heroes/samuel.json",
 		"config/astral/heroes/shireen.json",
-		"config/astral/heroes/yurian.json",
+		"config/astral/heroes/yurian.json"
 	],
 	"objects" : 
 	[           
 	    "config/astral/dwellings",
 	    "config/astral/Elemental" 
-    ],
+    ]
 }
