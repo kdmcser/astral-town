@@ -12,6 +12,14 @@
 		"0.5"   : [ "Update to vcmi-1.2 format" ],
 		"0.4"   : [ "Initial release" ]
     },
+	"chinese" : {
+		"name" : "星界",
+		"description" : "新城镇星界",
+		"translations": 
+		[
+			"translation/astral/chinese.json"
+		]
+	},
 	"compatibility" :
 	{
 		"min" : "1.4.0"
