@@ -7,7 +7,7 @@
 		"nativeTerrain": "sand",
 		"town" :
 		{
-			"musicTheme" : "music/astral/theme",
+			"musicTheme" : ["music/astral/theme"],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
@@ -36,7 +36,6 @@
 			"horde" : [ 0, -1 ],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",
-			"warMachine" : "ballista",
 			"buildingsIcons" : "astral/town-hall.def",
 			"icons" :
 			{
