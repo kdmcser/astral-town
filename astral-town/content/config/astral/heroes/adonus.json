@@ -9,9 +9,9 @@
 			"biography" : "nothing yet",
 			"specialty" :
 			{
-				"description" : "{Water Elementals and Desert Genies}\r\n\r\nIncreases Speed of any Water Elementals or Storm Elementals by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
-				"tooltip" : "Creature Bonus: Water Elementals",
-				"name" : "Water Elementals"
+				"description" : "{Steam Elementals or Smoke Elementals}\r\n\r\nIncreases Speed of any Steam Elementals or Smoke Elementals by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Steam Elementals",
+				"name" : "Steam Elementals"
 			}
 		}, 
 		"images" :

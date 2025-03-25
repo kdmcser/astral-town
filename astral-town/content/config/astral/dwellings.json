@@ -12,7 +12,7 @@
 				}
 			},
 			"asAltarWater" : {
-				"name" : "Altar of Water",
+				"name" : "Altar of Ooze and Salt",
 				"creatures" : [[ "aslv2up" ]],
 				"templates" : {
 					"default" : {
@@ -22,7 +22,7 @@
 				}
 			},
 			"asAltarAir" : {
-				"name" : "Altar of Air",
+				"name" : "Altar of Steam and Smoke",
 				"creatures" : [[ "aslv3" ]],
 				"templates" : {
 					"default" : {	
@@ -32,7 +32,7 @@
 				}
 			},
 			"asAltarFire" : {
-				"name" : "Altar of Fire",
+				"name" : "Altar of Lightning and Rasiance",
 				"creatures" : [[ "aslv4" ]],
 				"templates" : {
 					"default" : {
@@ -42,7 +42,7 @@
 				}
 			},
 			"asAltarWish" : {
-				"name" : "Altar of Wish",
+				"name" : "Altar of Dust and Ash",
 				"creatures" : [[ "aslv5" ]],
 				"guards" : true,
 				"templates" : {
@@ -53,7 +53,7 @@
 				}
 			},
 			"asAltarEarth" : {
-				"name" : "Altar of Earth",
+				"name" : "Altar of Wish",
 				"creatures" : [[ "aslv6" ]],
 				"guards" : true,
 				"templates" : {

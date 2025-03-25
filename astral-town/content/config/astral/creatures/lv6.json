@@ -39,10 +39,6 @@
 		"growth" : 2,
 		"hitPoints" : 80,
               	"level" : 6,
-		"upgrades":
-		[
-			"aslv6up"
-		],
 		"sound" :
 		{
 			"attack": "EFRTATTK.wav",

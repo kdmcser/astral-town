@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Magma Elementals",
-			"singular" : "Magma Elemental"
+			"plural" : "Ash Elementals",
+			"singular" : "Ash Elemental"
 		},
 		"advMapAmount" :
 		{
@@ -30,7 +30,7 @@
 		{
 			"animation" : "astral/battle/lv5up.def",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "astral/map/lv6upMap.def",
+			"map" : "astral/map/lv5upMap.def",
 			"iconSmall" : "astral/iconsSmall/lv5upm.bmp",
 			"iconLarge" : "astral/iconsBig/lv5ups.bmp",
 			"timeBetweenFidgets" : 1,

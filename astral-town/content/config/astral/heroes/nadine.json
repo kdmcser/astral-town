@@ -9,9 +9,9 @@
 			"biography" : "nothing yet",
 			"specialty" :
 			{
-				"description" : "{Earth Elementals and Magma Elementals}\r\n\r\nIncreases Speed of any Earth Elementals or Magma Elementals by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
-				"tooltip" : "Creature Bonus: Earth Elementals",
-				"name" : "Earth Elementals"
+				"description" : "{Dust Elementals or Ash Elementals}\r\n\r\nIncreases Speed of any Dust Elementals or Ash Elementals by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Dust Elementals",
+				"name" : "Dust Elementals"
 			}
 		}, 
 		"images" :

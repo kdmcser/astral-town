@@ -39,10 +39,7 @@
 		"growth" : 1,
 		"hitPoints" : 180,
 		"level" : 7,
-		"upgrades":
-		[
-			"aslv7up"
-		],
+
 		"sound" :
 		{
 			"attack": "FIRBATTK.wav",

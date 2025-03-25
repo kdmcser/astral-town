@@ -328,8 +328,8 @@
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "The Altar of Water allow to recruit Water Elementals.",
-					"name" : "Altar of Water",
+					"description" : "The Altar of Ooze allow to recruit Ooze Elementals.",
+					"name" : "Altar of Ooze",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5
@@ -339,8 +339,8 @@
 				},
 				"dwellingLvl3" :
 				{
-					"description" : "The Altar of Air allows to recruit Air Elementals.",
-					"name" : "Altar of Air",
+					"description" : "The Altar of Steam allows to recruit Steam Elementals.",
+					"name" : "Altar of Steam",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5
@@ -350,8 +350,8 @@
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "The Altar of Fire allows to recruit Fire Elementals.",
-					"name" : "Altar Fire",
+					"description" : "The Altar of Lightning allows to recruit Lightning Elementals.",
+					"name" : "Altar of Lightning",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -362,8 +362,8 @@
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "The Altar of Earth allows to recruit Earth Elementals.",
-					"name" : "Altar of Earth",
+					"description" : "The Altar of Dust allows to recruit Dust Elementals.",
+					"name" : "Altar of Dust",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 10
@@ -415,8 +415,8 @@
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "Upg. The Altar of Water allow to recruit Ice Elementals.",
-					"name" : "Upg. Altar of Water",
+					"description" : "The Altar of Salt allow to recruit Salt Elementals.",
+					"name" : "Altar of Salt",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5,
@@ -429,8 +429,8 @@
 				},
 				"dwellingUpLvl3" :
 				{
-					"description" : "Upg. The Altar of Air allows to recruit Storm Elementals.",
-					"name" : "Upg. Altar of Air",
+					"description" : "The Altar of Smoke allows to recruit Smoke Elementals.",
+					"name" : "Altar of Smoke",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -441,8 +441,8 @@
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "The Altar of Fire allows to recruit Flame Elementals.",
-					"name" : "Upg. Altar Fire",
+					"description" : "The Altar of Radiance allows to recruit Radiance Elementals.",
+					"name" : "Altar of Radiance",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -453,8 +453,8 @@
 				},
 				"dwellingUpLvl5" :
 				{
-					"description" : "Upg. The Altar of Earth allows to recruit Magma Elementals.",
-					"name" : "Upg. Altar of Earth",
+					"description" : "The Altar of Ash allows to recruit Ash Elementals.",
+					"name" : "Altar of Ash",
 					"cost" : {
 						"gold" : 1000,
 						"sulfur" : 5
