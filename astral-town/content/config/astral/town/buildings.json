@@ -288,28 +288,28 @@
 							"type": "MAGIC_SCHOOL_SKILL",
 							"subtype": "air",
 							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
+							"valueType": "INDEPENDENT_MAX",
 							"propagator": "PLAYER_PROPAGATOR" 
 						},
 						{
 							"type": "MAGIC_SCHOOL_SKILL",
 							"subtype": "earth",
 							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
+							"valueType": "INDEPENDENT_MAX",
 							"propagator": "PLAYER_PROPAGATOR" 
 						},
 						{
 							"type": "MAGIC_SCHOOL_SKILL",
 							"subtype": "fire",
 							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
+							"valueType": "INDEPENDENT_MAX",
 							"propagator": "PLAYER_PROPAGATOR" 
 						},
 						{
 							"type": "MAGIC_SCHOOL_SKILL",
 							"subtype": "water",
 							"val": 2,
-							"valueType": "INDEPENDENT_MIN",
+							"valueType": "INDEPENDENT_MAX",
 							"propagator": "PLAYER_PROPAGATOR" 
 						}
 					],
